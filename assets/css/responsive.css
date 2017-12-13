@@ -1,0 +1,29 @@
+@media (max-width: 575px)  {
+  .container {
+    margin: 0;
+  }
+  .side_panel {
+    height: 55px;
+    border-bottom-left-radius: 15px;
+  }
+  .sector {
+    padding-top: 28vh;
+  }
+  .after {
+    height: 20px;
+  }
+  .menu_btn {
+    display: block;
+  }
+}
+@media (max-height: 575px) and (orientation:landscape) {
+  .sector {
+    padding-top: 5px;
+  }
+  .screen {
+    height: 47vw;
+  }
+  .laptop {
+    height: 47vw;
+  }
+}

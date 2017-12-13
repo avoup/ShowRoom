@@ -6,9 +6,10 @@
     <title>ShowRoom</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable=yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
     <meta name="author" content="MadSpider">
     <!-- <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/fontawesome-all.css">
     <!-- myCSS -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
@@ -17,37 +18,45 @@
 <body>
 <nav>
   <ul class="side_panel">
-    <li id="desktop">desktop</li>
-    <li id="laptop">laptop</li>
-    <li id="tablet">tablet</li>
-    <li id="phone">phone</li>
+    <li class="menu_btn" id="icon"><div class="btn"></div></li>
+    <li id="desktop"><i class="fa fa-desktop" aria-hidden="true"></i> Desktop </li>
+    <li id="laptop"><i class="fa fa-laptop" aria-hidden="true"></i> Laptop </li>
+    <li id="tablet"><i class="fa fa-tablet" aria-hidden="true"></i><br> Tablet </li>
+    <li id="phone"><i class="fa fa-mobile" aria-hidden="true"></i><br> Phone </li>
+
+    <li class="site" id="1"> 1 </li>
+    <li class="site" id="2"> 2 </li>
+    <li class="site" id="3"> 3 </li>
   </ul>
+
 </nav>
 
   <div class="container">
 
-      <section class="desktop sector" data-section-name="desktop">
+      <section class="desktop sector" data-section-name="_desktop">
         <div class="screen">
-          <img src="assets/img/site.jpg">
+          <div class="ratio">
+            <img id="dsk" src="assets/img/YOUTHforWHO.jpg">
+          </div>
         </div>
         <div class="foot"></div>
       </section>
 
-      <section class="laptop_container sector" data-section-name="laptop">
+      <section class="laptop_container sector" data-section-name="_laptop">
         <div class="laptop">
-          <img src="assets/img/site.jpg">
+          <img id="lap" src="assets/img/YOUTHforWHO.jpg">
         </div>
         <div class="after"></div>
       </section>
 
-      <section class="tablet_container sector" data-section-name="tablet">
+      <section class="tablet_container sector" data-section-name="_tablet">
         <div class="tablet">
-          <img src="assets/img/site.jpg">
+          <img id="tab" src="assets/img/YOUTHforWHO.jpg">
         </div>
       </section>
-      <section class="phone_container sector" data-section-name="phone">
+      <section class="phone_container sector" data-section-name="_phone">
         <div class="phone">
-          <img src="assets/img/site.jpg">
+          <img id="mob" src="assets/img/YOUTHforWHO_mobile.jpg">
         </div>
       </section>
 
@@ -58,4 +67,5 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.17/jquery.scrollify.min.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+
 </html>
