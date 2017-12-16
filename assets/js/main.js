@@ -32,17 +32,17 @@ $(document).ready(function(){
           $("#tab").attr("src","assets/img/YOUTHforWHO.jpg");
           $("#mob").attr("src","assets/img/YOUTHforWHO_mobile.jpg");
           break;
-        case "2":
+          case "2":
+          $("#dsk").attr("src","assets/img/youth_new.jpg");
+          $("#lap").attr("src","assets/img/youth_new.jpg");
+          $("#tab").attr("src","assets/img/youth_new.jpg");
+          $("#mob").attr("src","assets/img/youth_new.jpg");
+          break;
+        case "3":
           $("#dsk").attr("src","assets/img/YFW_green.jpg");
           $("#lap").attr("src","assets/img/YFW_green.jpg");
           $("#tab").attr("src","assets/img/YFW_green.jpg");
           $("#mob").attr("src","assets/img/YFW_green.jpg");
-          break;
-        case "3":
-          $("#dsk").attr("src","assets/img/site.jpg");
-          $("#lap").attr("src","assets/img/site.jpg");
-          $("#tab").attr("src","assets/img/site.jpg");
-          $("#mob").attr("src","assets/img/site.jpg");
       }
     })
 

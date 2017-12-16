@@ -26,4 +26,14 @@
   .laptop {
     height: 47vw;
   }
+  .side_panel {
+    height: 55px;
+    border-bottom-left-radius: 15px;
+  }
+  .menu_btn {
+    display: block;
+  }
+  .side_panel p {
+    display: none;
+  }
 }

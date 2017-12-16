@@ -34,17 +34,22 @@ img {
   transition: all 1s;
 }
 .side_panel li {
+  cursor: pointer;
   color: white;
-  height: 14vh;
+  height: 20vh;
   width: 100%;
   text-align: center;
   list-style: none;
   color: #fff;
   font-family: sans-serif;
+  transition: color 0.5s;
 }
 .side_panel li i {
   margin: 15px;
   font-size: 30px;
+}
+.side_panel li:hover {
+  color: #198cff;
 }
 .open {
   height: 100% !important;
